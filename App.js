@@ -108,7 +108,7 @@ export default function App() {
               Snap{" "}
             </Text>
           </TouchableOpacity>
-          <Image source={pic}></Image>
+          <Image source={pic} style={{ width: 100, height: 100 }}></Image>
         </View>
       </Camera>
     </View>
